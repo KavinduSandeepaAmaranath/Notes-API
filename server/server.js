@@ -8,11 +8,11 @@ mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("MongoDB Connected"))
 .catch(error => console.log(error));
 
-const app = express;
+const app = express();
 
-app.request(cors());
-app.request(express.json());
-app.request("/api/auth", authRoutes);
+app.use(cors());
+app.use(express.json());
+app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
     res.send("API is running");
