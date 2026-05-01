@@ -29,7 +29,7 @@ router.get("/notes", auth, async (req, res) => {
         });
 
         res.json(notes);
-        
+
     } catch (error) {
         res.status(500).json({ message: "Error fetching notes" });
     }
@@ -63,6 +63,27 @@ router.put("/notes/:id", auth, async (req, res) => {
 
     } catch (error) {
         res.status(500).json({ message: "Error updating note" });
+    }
+});
+
+router.delete("/notes/:id", auth, async (req, res) => {
+    try {
+        const note = await Note.findById(req.params.id);
+
+        if (!note) {
+            return res.status(404).json({ message: "Note not found" });
+        }
+
+        if (note.userId.toString() !== req.user.id) {
+            return res.status(403).json({ message: "Not authorized" });
+        }
+
+        await note.deleteOne();
+
+        return res.json({ message: "Note deleted" });
+
+    } catch (error) {
+        res.status(500).json({ message: "Error deleting note" });
     }
 });
 
