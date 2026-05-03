@@ -7,7 +7,7 @@ const authMiddleware = require("../middleware/auth");
 const router = express.Router(); 
 
 router.post("/register", async(req, res) => {
-    const { name, email, password } = req.body;
+    const { name, email, password, conformPassword } = req.body;
 
     try {
         const existingUser = await User.findOne({ email });
@@ -15,6 +15,9 @@ router.post("/register", async(req, res) => {
             return res.status(400).json({ message: "User already exists" });
         }
 
+        if(password !== conformPassword) {
+            return res.status(422).json({ message: "Password does not match" });
+        }
         const hashedPassword = await bcrypt.hash(password, 10);
 
         const user = new User ({
