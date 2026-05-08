@@ -19,9 +19,9 @@ This project demonstrates user authentication and secure CRUD operations for man
 - Node.js
 - Express.js
 - MongoDB
-- Mongoose
 - JSON Web Token (JWT)
-- dotenv
 
 ---
+
+
 
