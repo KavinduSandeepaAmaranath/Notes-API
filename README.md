@@ -6,6 +6,7 @@ This project demonstrates user authentication and secure CRUD operations for man
 ---
 
 ## 🚀 Features
+
 -🔐 JWT-based Authentication
 -👤 User Registration & Login
 -📝 Create, Read, Update, Delete Notes
