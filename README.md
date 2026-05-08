@@ -12,3 +12,16 @@ This project demonstrates user authentication and secure CRUD operations for man
 - 📝 Create, Read, Update, Delete Notes
 - 🔒 Protected Routes (only authorized users can access their notes)
 - 🧠 User-specific data handling
+
+---
+
+## 🛠️ Tech Stack
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JSON Web Token (JWT)
+- dotenv
+
+---
+
