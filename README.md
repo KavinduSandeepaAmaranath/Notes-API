@@ -2,3 +2,12 @@
 
 A RESTful API for a Notes Application built using Node.js, Express, and MongoDB.
 This project demonstrates user authentication and secure CRUD operations for managing personal notes.
+
+---
+
+## 🚀 Features
+-🔐 JWT-based Authentication
+-👤 User Registration & Login
+-📝 Create, Read, Update, Delete Notes
+-🔒 Protected Routes (only authorized users can access their notes)
+-🧠 User-specific data handling
