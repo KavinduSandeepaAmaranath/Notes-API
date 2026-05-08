@@ -7,8 +7,8 @@ This project demonstrates user authentication and secure CRUD operations for man
 
 ## 🚀 Features
 
--🔐 JWT-based Authentication
--👤 User Registration & Login
--📝 Create, Read, Update, Delete Notes
--🔒 Protected Routes (only authorized users can access their notes)
--🧠 User-specific data handling
+- 🔐 JWT-based Authentication
+- 👤 User Registration & Login
+- 📝 Create, Read, Update, Delete Notes
+- 🔒 Protected Routes (only authorized users can access their notes)
+- 🧠 User-specific data handling
