@@ -60,7 +60,7 @@ This project demonstrates user authentication and secure CRUD operations for man
 
 ## 📮 Postman Collection
 Postman collection Document - https://documenter.getpostman.com/view/51152292/2sBXqNmJEr
-You can test all API endpoints using the Postman collection included in this repository.
+#### You can test all API endpoints using the Postman collection included in this repository.
 
 ### Steps:
 1. Download the collection from the /postman folder
