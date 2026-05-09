@@ -43,6 +43,10 @@ This project demonstrates user authentication and secure CRUD operations for man
   ```
   GET /api/notes
   ```
+- Get single Note by ID
+  ```
+  GET /api/notes/:id
+  ```
 - Update Note (Protected)
   ```
   PUT /api/notes/:id
