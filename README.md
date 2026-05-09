@@ -18,12 +18,20 @@ This project demonstrates user authentication and secure CRUD operations for man
 ## 🛠️ Tech Stack
 - Node.js
 - Express.js
-- MongoDB
+- MongoDB (Mongoose)
 - JSON Web Token (JWT)
 
 ---
 
-
-
+## 🔑 API Endpoints
+### 🔐 Auth Routes
+- Register User
+  ```bash
+  POST /api/register
+  ```
+- Login User
+  ```bash
+  POST /api/login
+  ```
 
 
