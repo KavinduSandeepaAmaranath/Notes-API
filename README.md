@@ -71,6 +71,16 @@ You can test all API endpoints using the Postman collection included in this rep
 4. Start testing 🚀
 
 ---
+
+## 📁 Project Structure
+```
+controllers/
+models/
+routes/
+middleware/
+```
+
+---
   
 ## 📚 Key Learnings
 - Building RESTful APIs
