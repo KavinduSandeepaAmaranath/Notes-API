@@ -53,6 +53,10 @@ This project demonstrates user authentication and secure CRUD operations for man
   ```
   
 ---
+
+## 📮 Postman
+
+---
   
 ## 📚 Key Learnings
 - Building RESTful APIs
