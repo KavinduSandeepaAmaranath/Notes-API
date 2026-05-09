@@ -34,4 +34,16 @@ This project demonstrates user authentication and secure CRUD operations for man
   POST /api/login
   ```
 
+### 📝 Notes Routes
+- Get All Notes (Protected)
+  ```
+  GET /api/notes
+  ```
+- Create Note (Protected)
+POST /api/notes
+- Update Note (Protected)
+PUT /api/notes/:id
+- Delete Note (Protected)
+DELETE /api/notes/:id
+
 
