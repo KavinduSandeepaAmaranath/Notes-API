@@ -60,10 +60,14 @@ You can test all API endpoints using the Postman collection included in this rep
 
 ### Steps:
 1. Download the collection from the /postman folder
+
 2. Import it into Postman
+
 3. Set environment variables:
+
     - base_url = http://localhost:5000
     - token = your JWT token
+    
 4. Start testing 🚀
 
 ---
