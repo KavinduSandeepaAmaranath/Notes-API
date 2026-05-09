@@ -51,12 +51,25 @@ This project demonstrates user authentication and secure CRUD operations for man
   ```
   DELETE /api/notes/:id
   ```
-  ---
+  
+---
+  
 ## 📚 Key Learnings
 - Building RESTful APIs
 - Implementing JWT authentication
 - Protecting routes with middleware
 - Structuring a Node.js backend
 - Handling user-specific data securely
+
+---
+
+## 🔮 Future Improvements
+- Add input validation
+- Add refresh tokens
+- Implement role-based access
+- Add logging and error handling
+- Deploy to cloud (Render / AWS)
+
+---
 
 
