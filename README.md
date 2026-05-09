@@ -24,7 +24,7 @@ This project demonstrates user authentication and secure CRUD operations for man
 ---
 
 ## 🔑 API Endpoints
-### 🔐 Auth Routes
+#### 🔐 Auth Routes
 - Register User
   ```bash
   POST /api/register
