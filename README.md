@@ -35,13 +35,13 @@ This project demonstrates user authentication and secure CRUD operations for man
   ```
 
 ### 📝 Notes Routes
-- Get All Notes (Protected)
-  ```
-  GET /api/notes
-  ```
 - Create Note (Protected)
   ```
   POST /api/notes
+  ```
+- Get All Notes (Protected)
+  ```
+  GET /api/notes
   ```
 - Update Note (Protected)
   ```
